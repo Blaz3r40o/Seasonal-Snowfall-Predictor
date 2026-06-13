@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging / build outputs
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test / coverage / cache files
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor settings
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local logs
+*.log
+
+# Large raw climate / DEM files
+# Keep these ignored if the datasets are too large for GitHub.
+# If your teacher requires the CSV files in the repo, comment out the next two lines.
+data_raw/
+data_cached/
+
+# Optional: ignore generated figures/models if you create them
+outputs/
+figures/
+models/
+*.pkl
+*.joblib
+
+# Do NOT ignore notebooks or the prepared datasets folder by default.
+# *.ipynb
+# datasets/
